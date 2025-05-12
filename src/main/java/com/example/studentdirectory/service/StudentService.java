@@ -18,8 +18,6 @@ public class StudentService
             new Student(23,"jack","jack@.com","cse",2),
             new Student(22,"jenny","jenny@.com","ec",3)));
             */
-    private int idcount=1;
-
     public List<Student> getAll(){
       return studentRepositiory.findAll();
     }
